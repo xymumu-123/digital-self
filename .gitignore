@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.bak
+
+# Large data files (optional - uncomment if repo gets too big)
+# raw/chat/
+# raw/notes/
+# raw/interests/
+# raw/personal/
+# raw/work/
