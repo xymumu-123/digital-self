@@ -297,4 +297,4 @@ ls -la raw/
 
 > 本 Skill 融合了 [女娲 · Skill造人术](https://github.com/alchaincyf/nuwa-skill)、
 > [自己.skill](https://github.com/notdog1998/yourself-skill) 和
-> [LLM Wiki](https://github.com/llm-wiki) 的精华
+> [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 的精华

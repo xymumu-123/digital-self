@@ -10,8 +10,8 @@
 
 <br>
 
-融合 [yourself-ultra](https://github.com/yourself-ultra) 的灵魂层<br>
-和 [LLM Wiki](https://github.com/llm-wiki) 的记忆层<br>
+融合 [自己.skill](https://github.com/notdog1998/yourself-skill) + [女娲](https://github.com/alchaincyf/nuwa-skill) 的灵魂层<br>
+和 [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 的记忆层<br>
 构建一个完整的**数字副本**
 
 [安装](#安装) · [使用](#使用) · [架构](#架构) · [工作流](#工作流)
@@ -24,8 +24,8 @@
 
 Digital Self 由两个子系统组成：
 
-- **灵魂层**（yourself-ultra）：定义 WHO you are — 思维方式、性格、心智模型、决策模式、表达风格
-- **记忆层**（llm-wiki）：存储 WHAT you know — 原始资料、学习笔记、经历记录、知识整理
+- **灵魂层**：定义 WHO you are — 思维方式、性格、心智模型、决策模式、表达风格
+- **记忆层**：存储 WHAT you know — 原始资料、学习笔记、经历记录、知识整理
 
 **灵魂层**决定 HOW — 用什么语气回答、用什么思维方式分析、会有什么情感反应
 **记忆层**决定 WHAT — 相关的事实和知识、过去的经历和案例、学习过的内容
@@ -218,7 +218,7 @@ pip install -r schema/requirements.txt
          │                  │
          ▼                  ▼
 ┌─────────────────┐  ┌─────────────────┐
-│  yourself-ultra │  │    llm-wiki     │
+│    灵魂层生成   │  │    记忆层整理   │
 │    生成灵魂     │  │    深度整理     │
 │                 │  │                 │
 │ • 心智模型      │  │ • 来源摘要      │
@@ -280,7 +280,7 @@ pip install -r schema/requirements.txt
 
 - **[女娲 · Skill造人术](https://github.com/alchaincyf/nuwa-skill)**（by 花叔）— 心智模型三重验证、决策启发式、表达DNA提炼方法论
 - **[自己.skill](https://github.com/notdog1998/yourself-skill)**（by Notdog）— Self Memory + Persona 双层结构、标签翻译表、进化机制
-- **[LLM Wiki](https://github.com/llm-wiki)** — 用 LLM 构建和维护个人知识库
+- **[LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**（by Karpathy）— 用 LLM 构建和维护个人知识库
 
 Digital Self 在此基础上将三者融合，打造灵魂层+记忆层的完整数字副本。致敬三位原作者的创意和开源精神。
 
